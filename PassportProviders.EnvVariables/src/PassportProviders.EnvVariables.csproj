@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Version>3.1.1</Version>
     <Authors>CloudExtend.io</Authors>
@@ -15,7 +15,7 @@
     <RepositoryType>Git</RepositoryType>
     <PackageReleaseNotes>3.1.0 Environment variables have been parameterized.</PackageReleaseNotes>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <ProjectReference Include="..\..\Celigo.ServiceManager.NetSuite\src\Celigo.ServiceManager.NetSuite.csproj" />
   </ItemGroup>
